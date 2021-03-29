@@ -1,0 +1,407 @@
+/* responsive default */
+
+.jarak-navbar {
+    margin-top: 10px;
+}
+
+.logo-icon {
+    width: 165px;
+    height: 30px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #6199E5;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.display-4 {
+    font-size: 48px;
+    color: #333;
+    line-height: 130%;
+    /* or 94px */
+    letter-spacing: 0.01em;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.btn-color {
+    margin-top: 10px;
+    background-color: #6199E5;
+    color: #fff;
+    width: 120px;
+    height: 52px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.bi-youtube {
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.bi-instagram {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.bi-whatsapp {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.bi-github {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.hero1 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+/* bagian hero 2 */
+
+.hero2 {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.display-5 {
+    font-style: normal;
+    font-size: 48px;
+    color: #333;
+    line-height: 130%;
+    /* or 94px */
+    letter-spacing: 0.02em;
+    font-weight: 550;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon1 {
+    width: 25%;
+}
+
+.heading-icon {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.text-icon {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.bg-hero3 {
+    width: 200px;
+    margin-left: -20px;
+    margin-top: -100px;
+}
+
+.ceklis {
+    width: 40.51px;
+    height: 29.57px;
+}
+
+.kotak {
+    padding-bottom: 8px;
+    float: right;
+    margin-left: 20px;
+}
+
+.float {
+    height: 5px;
+    float: left;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    line-height: 130%;
+    text-align: left;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.hero3 {
+    width: 500px;
+    height: 520px;
+}
+
+
+/* bagian desktop */
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .jarak-navbar {
+        margin-top: 20px;
+    }
+    .logo-icon {
+        width: 170.83px;
+        height: 31.38px;
+    }
+    .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .nav-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        background: #6199E5;
+        transition: width .3s;
+    }
+    .nav-link:hover::after {
+        width: 100%;
+    }
+    /* bagian hero 1 */
+    .display-4 {
+        font-style: normal;
+        font-size: 70px;
+        color: #333;
+        line-height: 130%;
+        /* or 94px */
+        letter-spacing: 0.02em;
+        font-weight: bold;
+    }
+    /* bagian gambar hero */
+    .hero1 {
+        width: 546px;
+        height: 516px;
+        margin-top: 0px;
+    }
+    .jarak-hero1 {
+        margin-top: 110px;
+    }
+    /* bagian button hero 1 */
+    .btn-color {
+        margin-top: 10px;
+        background-color: #6199E5;
+        color: #fff;
+        width: 130px;
+        height: 52px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        margin-right: 20px;
+    }
+    /* bagian icon */
+    .bi-youtube {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .bi-instagram {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .bi-whatsapp {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .bi-github {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    /* bagian hero 2 */
+    .hero2 {
+        width: 540px;
+        height: 516px;
+    }
+    .display-5 {
+        font-style: normal;
+        font-size: 70px;
+        color: #333;
+        line-height: 130%;
+        /* or 94px */
+        letter-spacing: 0.02em;
+        font-weight: bold;
+        margin-top: 0px;
+        text-align: left;
+    }
+    /*  */
+    .icon1 {
+        width: 88px;
+        height: 88px;
+        margin: auto;
+    }
+    .heading-icon {
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        /* identical to box height */
+        color: #333333;
+        padding-top: 0px;
+    }
+    .text-icon {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        color: #333333;
+        line-height: 25px;
+    }
+    /* bagian hero 3 */
+    .minus {
+        margin-top: -150px;
+    }
+    .margin {
+        margin-top: 150px;
+    }
+    .bg-hero3 {
+        width: 290px;
+        height: 500.48px;
+        margin-left: -20px;
+        margin-top: -100px;
+    }
+    /* bagian gambar hero */
+    .ceklis {
+        width: 48.51px;
+        height: 35.57px;
+    }
+    .float {
+        height: 5px;
+        float: left;
+    }
+    .kotak {
+        width: 500px;
+        height: 100px;
+        float: right;
+    }
+    .heading {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        letter-spacing: 0.04em;
+        line-height: 130%;
+    }
+    .text {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .hero3 {
+        position: absolute;
+        width: 680px;
+        height: 700px;
+        margin-left: 46px;
+    }
+    /* bagian hero 4 */
+    .bg-hero4 {
+        width: 180px;
+        margin-left: -20px;
+        position: absolute;
+        margin-top: -60px;
+    }
+    .display-6 {
+        text-align: center;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 68px;
+        line-height: 130%;
+    }
+    /* bagian card */
+    .costum-card {
+        width: 318px;
+        height: 464px;
+    }
+    .heading-card {
+        font-size: 20px;
+        font-weight: 800;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .heading-card {
+        border-radius: 100px;
+    }
+    .bg-heading {
+        background-color: #6199E5;
+    }
+    .card {
+        background: #FFFFFF;
+        box-shadow: 16px 19px 30px rgba(0, 0, 0, 0.25);
+    }
+    .card-title {
+        font-size: 48px;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 0.04em;
+        color: #333333;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .anak-title {
+        font-size: 20px;
+        color: #333;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.04em;
+        padding-top: 10px;
+    }
+    .card-text {
+        font-size: 14px;
+        text-align: justify;
+        padding-top: 20px;
+        color: #333333;
+        text-transform: lowercase;
+    }
+    .btn {
+        width: 140px;
+        height: 48px;
+        background: #6199E5;
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        font-style: normal;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
