@@ -30,7 +30,6 @@
     font-size: 48px;
     color: #333;
     line-height: 130%;
-    /* or 94px */
     letter-spacing: 0.01em;
     font-weight: 550;
     font-style: normal;
@@ -156,9 +155,132 @@
     text-align: justify;
 }
 
+
+/* bagian hero 3*/
+
+.height {
+    height: 100vh;
+}
+
+.tinggi {
+    position: relative;
+}
+
 .hero3 {
-    width: 500px;
-    height: 520px;
+    position: absolute;
+    background-size: contain;
+    background-image: url(/img/hero3.png);
+    z-index: -1;
+    width: 360px;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+
+/* bagian hero 4 */
+
+.bg-hero4 {
+    width: 200px;
+    margin-top: -350px;
+    height: 400px;
+    position: absolute;
+}
+
+.display-6 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 130%;
+}
+
+
+/* bagian card */
+
+.heading-card {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    width: 90%;
+    height: 464px;
+    cursor: pointer;
+    margin: auto;
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+}
+
+.bg-heading {
+    background: #6199E5;
+}
+
+.card-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #333333;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.anak-title {
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.04em;
+    padding-top: 10px;
+}
+
+
+/* card hover */
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 20px;
+    color: #333333;
+    text-transform: lowercase;
+}
+
+.btn {
+    width: 140px;
+    height: 48px;
+    background: #6199E5;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.jarak-card {
+    padding-bottom: 50px;
+}
+
+.bg-hero5 {
+    width: 60%;
+    right: 0;
+    position: absolute;
+}
+
+.bg-hero-6 {
+    left: 0;
+    width: 30%;
+    position: absolute;
 }
 
 
@@ -326,18 +448,31 @@
         font-weight: 500;
         font-size: 15px;
     }
+    .height {
+        height: 0vh;
+        margin-left: -15px;
+    }
+    .tinggi {
+        position: relative;
+        height: 50vh;
+        margin-left: 0;
+    }
     .hero3 {
         position: absolute;
-        width: 680px;
-        height: 700px;
-        margin-left: 46px;
+        background-size: cover;
+        background-image: url(/img/hero3.png);
+        z-index: -1;
+        width: 610px;
+        height: 800px;
+        margin-left: 21px;
+        display: flex;
     }
     /* bagian hero 4 */
     .bg-hero4 {
-        width: 180px;
-        margin-left: -20px;
+        z-index: 1;
+        height: 414px;
         position: absolute;
-        margin-top: -60px;
+        margin-top: 0;
     }
     .display-6 {
         text-align: center;
@@ -345,11 +480,13 @@
         font-weight: 800;
         font-size: 68px;
         line-height: 130%;
+        margin-top: 100px;
     }
     /* bagian card */
     .costum-card {
         width: 318px;
         height: 464px;
+        margin-top: 50px;
     }
     .heading-card {
         font-size: 20px;
@@ -357,15 +494,16 @@
         color: #FFFFFF;
         text-align: center;
     }
-    .heading-card {
-        border-radius: 100px;
-    }
-    .bg-heading {
-        background-color: #6199E5;
-    }
     .card {
         background: #FFFFFF;
-        box-shadow: 16px 19px 30px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+        width: 318.28px;
+        height: 464px;
+        cursor: pointer;
+        transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    }
+    .bg-heading {
+        background: #6199E5;
     }
     .card-title {
         font-size: 48px;
@@ -385,6 +523,11 @@
         letter-spacing: 0.04em;
         padding-top: 10px;
     }
+    /* card hover */
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    }
     .card-text {
         font-size: 14px;
         text-align: justify;
@@ -403,5 +546,40 @@
         font-style: normal;
         text-align: center;
         margin-top: 20px;
+    }
+    .jarak-hero4 {
+        margin-top: 100px;
+    }
+    .relative {
+        position: relative;
+    }
+    .bg-hero5 {
+        position: absolute;
+        width: 500px;
+        height: 600px;
+        right: 0;
+        z-index: -1;
+    }
+    .background {
+        position: absolute;
+    }
+    .bg-hero-6 {
+        left: 0;
+        position: absolute;
+        width: 200px;
+        z-index: -1;
+    }
+    /* bagian contact us */
+    .margin-contact-us {
+        margin-top: 200px;
+    }
+    .display-7 {
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+    }
+    .jarak-button-contact {
+        margin-top: 32px;
     }
 }
