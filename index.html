@@ -34,7 +34,7 @@
   </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link mr-5 text-muted" href="#">About Us</a>
+                    <a class="nav-link mr-5 text-muted" href="#hero2">About Us</a>
                     <a class="nav-link mr-5 text-muted" href="#">Portofolio</a>
                     <a class="nav-link mr-5 text-muted" href="#">Package</a>
                     <a class="nav-link mr-5 text-muted" href="#">Contact Us</a>
@@ -44,7 +44,7 @@
     </nav>
     <!-- akhir navbar -->
     <!-- bagian hero 1 -->
-    <section class="bagian-hero1 jarak-hero1">
+    <section id="#home" class="bagian-hero1 jarak-hero1">
         <div class="jumbotron jumbotron-fluid bg-transparent ">
             <div class="container">
                 <div class="row">
@@ -77,14 +77,14 @@
                     <div class="col-md-6 col-sm-12">
                         <img src="img/hero1.png" alt="hero1" class="hero1">
                     </div>
-                    <div class="col-md-6"></div>
+
                 </div>
             </div>
         </div>
     </section>
     <!-- akhir hero bagian1 -->
     <!-- bagian hero 2 -->
-    <section class="bagian-hero2 jarak-hero1">
+    <section id="hero2" class="bagian-hero2 jarak-hero1">
         <div class="jumbotron jumbotron-fluid bg-transparent">
             <div class="container">
                 <div class="row">
@@ -184,7 +184,7 @@
         <div class="container jarak-hero4 ">
             <div class="row justify-content-center ">
                 <!--  -->
-                <div class="col-md-4 col-sm-12 jarak-card position-relative">
+                <div class="col-md-4 col-sm-12 jarak-card ">
                     <div class="card mb-3 costum-card text-center ">
                         <div class="card-header heading-card bg-heading rounded-top">Unity Package</div>
                         <div class="card-body text-primary">
@@ -242,7 +242,7 @@
         <div class="jumbotron jumbotron-fluid contact-us bg-transparent margin-contact-us">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 col-sm-12">
+                    <div class="col-md-5 col-sm-12 mb-5">
                         <h1 class="display-7">Interested In Our Service? Let’s Work With VisuallyID
                         </h1>
                         <button type="button" class="btn btn-primary jarak-button-contact">Contact Us</button>
@@ -258,21 +258,58 @@
                                 <label for="exampleFormControlTextarea1">Kirim Pesan</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
                             </div>
-
-
                             <button type="submit" class="btn btn-primary">Send</button>
                         </form>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-
-
-
-
-
+    <!-- bagian footer -->
+    <section id="#footer">
+        <div class="container-fluid background-color">
+            <div class="row justify-content-center pt-5 ">
+                <div class="col-md-3 mid mt-4 position-relative">
+                    <h4 class="heading-logo text-center position-absolute">Powered by</h4>
+                    <img src="img/icon/logo-footer.png" class="logo-footer" alt="logo-footer" title="logo-footer">
+                    <h4 class="heading-footer1">VisuallyID</h4>
+                    <p class="text-logo">Creative Agency <br>Kudus, East java, Indonesia</p>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <h4 class="heading-footer">
+                        Our Company
+                    </h4>
+                    <!-- bagian link -->
+                    <a href="#" class="link-footer">About us</a>
+                    <a href="#" class="link-footer">VisuallyID Life</a>
+                    <a href="#" class="link-footer">Press</a>
+                    <a href="#" class="link-footer">Partners</a>
+                    <a href="#" class="link-footer">Contact Us</a>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <h4 class="heading-footer">Our Service</h4>
+                    <a href="#" class="link-footer">Branding Strategy</a>
+                    <a href="#" class="link-footer">Marketing Strategy</a>
+                    <a href="#" class="link-footer">Branding Colsuntant</a>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <h4 class="heading-footer">Legal</h4>
+                    <a href="#" class="link-footer">Terms & Condition</a>
+                    <a href="#" class="link-footer">Privacy Policy</a>
+                    <a href="#" class="link-footer">Cookies Policy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid bg-color">
+            <div class="row justify-content-center">
+                <h4 class="text-footer-bawah">Copyright. 2021 VisuallyID <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg> All right reserved</h4>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -300,7 +337,8 @@
         AOS.init();
     </script>
     <!--  -->
-
+    <!-- scroll smooth -->
+    <script src="smooth.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
