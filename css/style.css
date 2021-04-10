@@ -284,6 +284,24 @@
 }
 
 
+/* bagian contact us */
+
+.margin-contact-us {
+    margin-top: 100px;
+}
+
+.display-7 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+}
+
+.jarak-button-contact {
+    margin-top: 20px;
+}
+
+
 /* bagian desktop */
 
 
@@ -581,5 +599,73 @@
     }
     .jarak-button-contact {
         margin-top: 32px;
+    }
+    /* bagian footer */
+    .background-color {
+        height: 400px;
+        background-color: #6199E5;
+        border-radius: 70px 70px 0px 0px;
+    }
+    /* .tengah {
+        margin-top: auto;
+    } */
+    .heading-logo {
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+    }
+    .heading-footer1 {
+        margin-top: 180px;
+    }
+    .heading-footer,
+    .heading-footer1 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        text-align: left;
+    }
+    .mid {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .logo-footer {
+        width: 100px;
+        position: absolute;
+        margin-top: 50px;
+        display: block;
+    }
+    .text-footer {
+        color: #fff;
+        letter-spacing: 0.05em;
+        line-height: 127%;
+        font-size: 16px;
+    }
+    .text-logo {
+        color: #fff;
+        letter-spacing: 0.05em;
+        font-size: 16px;
+        line-height: 127%;
+        text-align: center;
+    }
+    .link-footer {
+        display: block;
+        color: #fff;
+        font-size: 16px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    .text-footer-bawah {
+        text-align: center;
+        color: #fff;
+        letter-spacing: 0.11em;
+        font-size: 20px;
+    }
+    .bg-color {
+        background-color: #6199E5;
+    }
+    /* icon love hover */
+    .bi-heart-fill:hover {
+        color: red;
     }
 }
