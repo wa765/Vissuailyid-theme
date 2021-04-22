@@ -122,6 +122,7 @@
     width: 200px;
     margin-left: -20px;
     margin-top: -100px;
+    margin-bottom: 20px;
 }
 
 .ceklis {
@@ -158,32 +159,26 @@
 
 /* bagian hero 3*/
 
-.height {
-    height: 100vh;
-}
-
-.tinggi {
-    position: relative;
-}
-
 .hero3 {
     position: absolute;
     background-size: contain;
-    background-image: url(/img/hero3.png);
-    z-index: -1;
-    width: 360px;
-    height: 1000px;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 80%;
+    right: 0;
+    margin-top: -100px;
 }
 
 
 /* bagian hero 4 */
 
+.margin-hero4 {
+    margin-top: 550px;
+}
+
 .bg-hero4 {
-    width: 200px;
+    width: 40%;
     margin-top: -350px;
-    height: 400px;
-    position: absolute;
+    height: 60%;
 }
 
 .display-6 {
@@ -192,6 +187,10 @@
     font-size: 48px;
     font-weight: bold;
     line-height: 130%;
+}
+
+.jarak {
+    margin-top: -10px;
 }
 
 
@@ -301,6 +300,75 @@
     margin-top: 20px;
 }
 
+.background-color {
+    width: 100%;
+    background-color: #6199E5;
+    border-radius: 70px 70px 0px 0px;
+}
+
+.heading-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo-footer {
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.heading-footer1 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.text-logo {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.heading-footer {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.link-footer {
+    display: block;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+/* bagian akhir */
+
+.text-footer-bawah {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.11em;
+    font-size: 16px;
+}
+
+.bg-color {
+    background-color: #6199E5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+/* icon love hover */
+
+.bi-heart-fill:hover {
+    color: red;
+}
+
 
 /* bagian desktop */
 
@@ -346,9 +414,6 @@
         width: 546px;
         height: 516px;
         margin-top: 0px;
-    }
-    .jarak-hero1 {
-        margin-top: 110px;
     }
     /* bagian button hero 1 */
     .btn-color {
@@ -470,25 +535,21 @@
         height: 0vh;
         margin-left: -15px;
     }
-    .tinggi {
-        position: relative;
-        height: 50vh;
-        margin-left: 0;
-    }
     .hero3 {
         position: absolute;
-        background-size: cover;
-        background-image: url(/img/hero3.png);
-        z-index: -1;
         width: 610px;
-        height: 800px;
-        margin-left: 21px;
-        display: flex;
+        height: 700px;
+        right: 0;
+        margin-top: -800px;
     }
     /* bagian hero 4 */
+    .margin-hero4 {
+        margin-top: 0px;
+    }
     .bg-hero4 {
         z-index: 1;
-        height: 414px;
+        height: 40%;
+        width: 10%;
         position: absolute;
         margin-top: 0;
     }
@@ -606,13 +667,11 @@
         background-color: #6199E5;
         border-radius: 70px 70px 0px 0px;
     }
-    /* .tengah {
-        margin-top: auto;
-    } */
     .heading-logo {
         font-size: 20px;
         font-weight: bold;
         color: #fff;
+        position: absolute;
     }
     .heading-footer1 {
         margin-top: 180px;
@@ -654,6 +713,7 @@
         font-size: 16px;
         padding-top: 20px;
         box-sizing: border-box;
+        text-align: left;
     }
     .text-footer-bawah {
         text-align: center;
