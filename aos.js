@@ -24,3 +24,10 @@ AOS.init({
     anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+document.addEventListener('aos:in', ({ detail }) => {
+    console.log('animated in', detail);
+});
+
+document.addEventListener('aos:out', ({ detail }) => {
+    console.log('animated out', detail);
+});
